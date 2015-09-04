@@ -9,7 +9,7 @@ public class SimpsonIntegrator {
 
 	//checks if parameters are valid.
 	public boolean checkConditions() {
-        if (n % 2 != 0){
+        if (n % 2 != 0) {
 			n++;
 			System.out.print("The provided (n) value was not even, ");
 			System.out.println("(n) has been incremented");

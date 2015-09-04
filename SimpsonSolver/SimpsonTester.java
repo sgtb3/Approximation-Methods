@@ -8,8 +8,6 @@ public class SimpsonTester {
 
         Function NDF = new Function();
         SimpsonIntegrator simp = new SimpsonIntegrator();
-
         System.out.println(simp.integrate(a, b, n, NDF) * 2);
-
     }
 }
