@@ -1,12 +1,12 @@
 # Approximation-Methods/Runge-Kutta
-#Contents
+# Contents
 
-    - **Function.java** - The user must define the function to be approximated in the body of this class.
-                          A sample function is provided.
+     **Function.java** - The user must define the function to be approximated in the body of this class.
+                         A sample function is provided.
 
-    - **RungeKutta.java** - This program is an implementation of the Runge-Kutta Midpoint Method. 
-                            It takes as input a user-defined function, initial conditions t_0 and f_t0,
-                            and step size h.
+     **RungeKutta.java** - This program is an implementation of the Runge-Kutta Midpoint Method. 
+                           It takes as input a user-defined function, initial conditions t_0 and f_t0,
+                           and step size h.
 
 
 #The default output is the solution to the following problem:
