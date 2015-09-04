@@ -9,7 +9,7 @@ public class SimpsonIntegrator {
 
 	//checks if parameters are valid.
 	public boolean checkConditions() {
-        if (n % 2 != 0) {
+        	if (n % 2 != 0) {
 			n++;
 			System.out.print("The provided (n) value was not even, ");
 			System.out.println("(n) has been incremented");
@@ -37,30 +37,30 @@ public class SimpsonIntegrator {
      */
 	public double integrate(double a, double b, double n, Function func) {
 	    
-        this.a = a;
-        this.b = b;
-        this.n = n;
-        double h = (b - a) / this.n;
+	        this.a = a;
+	        this.b = b;
+	        this.n = n;
+	        double h = (b - a) / this.n;
+	
+	        double dx = (a + h);
+	        double x  = (a + dx);
+	        double t1 = func.f(a);
+	        double t4 = func.f(b);
+	        double t3 = func.f(x);
+	        double t2 = 0;
 
-        double dx = (a + h);
-        double x  = (a + dx);
-        double t1 = func.f(a);
-        double t4 = func.f(b);
-        double t3 = func.f(x);
-        double t2 = 0;
-
-        if (!checkConditions()) {
-            System.out.println("Invalid parameters. Recompile.");
-            System.exit(1);
-        }
-        for (int j = 1; j <= (n - 2)/2; j++) {
-            x  += dx;
-            t2 += func.f(x);
-            x  += dx;
-            t3 += func.f(x);
-        }
-        return (dx / 3) * (t1 + (2 * t2) + (4 * t3) + t4);
-	}
+	        if (!checkConditions()) {
+	            System.out.println("Invalid parameters. Recompile.");
+	            System.exit(1);
+	        }
+	        for (int j = 1; j <= (n - 2)/2; j++) {
+	            x  += dx;
+	            t2 += func.f(x);
+	            x  += dx;
+	            t3 += func.f(x);
+	        }
+	        return (dx / 3) * (t1 + (2 * t2) + (4 * t3) + t4);
+		}
 }
 
 
