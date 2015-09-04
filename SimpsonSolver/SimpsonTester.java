@@ -1,10 +1,6 @@
-/**
- * This is the tester class for the the SimpsonIntegrator
- * and Function classes.
- */
-public class SimpsonTester{
+public class SimpsonTester {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         double a = 0;
         double b = 2;
@@ -13,7 +9,7 @@ public class SimpsonTester{
         Function NDF = new Function();
         SimpsonIntegrator simp = new SimpsonIntegrator();
 
-        System.out.println(simp.integrate(a,b,n,NDF)*2);
+        System.out.println(simp.integrate(a, b, n, NDF) * 2);
 
     }
 }
