@@ -5,7 +5,7 @@ public class SimpsonIntegrator {
 
 	private double a;
 	private double b;
-	private double n;//number of evaluations
+	private double n; //number of evaluations
 
 	//checks if parameters are valid.
 	public boolean checkConditions() {
@@ -36,7 +36,7 @@ public class SimpsonIntegrator {
      * @param func user defined function class
      */
 	public double integrate(double a, double b, double n, Function func) {
-
+	    
         this.a = a;
         this.b = b;
         this.n = n;
