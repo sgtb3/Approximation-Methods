@@ -83,7 +83,7 @@ public class MonteCarlo {
 
         //if any of the bounds are backwards swap them
         if (xu < xl) {
-            return estimator(xu, xl , yl, yu, zl, zu, itr);
+            return estimator(xu, xl, yl, yu, zl, zu, itr);
         }
         if (yu < yl) {
             return estimator(xl, xu, yu, yl, zl, zu, itr);
