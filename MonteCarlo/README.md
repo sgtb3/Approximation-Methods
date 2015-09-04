@@ -8,4 +8,4 @@
 
 #The default output answers the question:
 	
-	![Sample Question](Approximation-Methods/MonteCarlo/Sample_Question.png?raw=true)
+![Sample Question](Approximation-Methods/MonteCarlo/Sample_Question.png)
