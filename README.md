@@ -1,4 +1,4 @@
-# Approximation-Methods
+# Approximation-Methods/Runge-Kutta
 #Contents
 
     - **Function.java** - The user must define the function to be approximated in the body of this class.
@@ -43,8 +43,9 @@
 
   The reason this program approximated only (~2027) units of KOT (as compared to the book answer of *2099*) is because
   the step size was limited to (h = .01). A more accurate prediction is given if the number of steps is increased.
-
-        For example, if (h = .001), then this program outputs At t = 0.2, f(0.2) = 2079.19.
+  For example, if (h = .001), then this program outputs
+  
+       At t = 0.2, f(0.2) = 2079.19.
 
   Also, the book is likely using a higher order RK-4 method, which would yield a more accurate result as compared to 
   this RK-2 method.
