@@ -8,18 +8,14 @@
                             It takes as input a user-defined function, initial conditions t_0 and f_t0,
                             and step size h.
 
-#It can be be compiled and ran via the following:
 
-        javac RungeKutta.java
-        java RungeKutta
-
-#The output is the solution to the following problem:
+#The default output is the solution to the following problem:
 
   ![alt tag](https://raw.github.com/sgtb3/Approximation-Methods/Runge-Kutta/Question_15_Ch_5.3_Numerical Methods_J_Faires.png)
 
-  ##Output:
+  #Output:
   
-      At t = 0.01, f(0.01) = 153.11
+        At t = 0.01, f(0.01) = 153.11
     	At t = 0.02, f(0.02) = 388.35
     	At t = 0.03, f(0.03) = 710.52
     	At t = 0.04, f(0.04) = 1027.67
@@ -40,8 +36,8 @@
     	At t = 0.19, f(0.19) = 2007.24
     	At t = 0.20, f(0.20) = 2026.98
 
-      Specifically that at t = 0.2 seconds after the reaction, approximately 2026 (2027 rounding up) units
-      of KOH potassium hydroxide will have formed.
+       Specifically that at t = 0.2 seconds after the reaction, approximately 2026
+       (2027 rounding up) units of KOH potassium hydroxide will have formed.
 
 #Varying Answers
 
