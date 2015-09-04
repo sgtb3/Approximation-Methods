@@ -4,7 +4,7 @@
 
 #The output answers part (a) of the question:
 	
-	![alt tag](https://github.com/sgtb3/Approximation-Methods/blob/master/Runge-Kutta/Question_12_Ch_5_Numerical%20Methods_J_Faires.png)
+	![alt tag](https://github.com/sgtb3/Approximation-Methods/blob/master/EulerSolver/Question_12_Ch_5_Numerical%20Methods_J_Faires.png?raw=true)
 
 #Output:
 	At t = (0), v(0) = 8.0
