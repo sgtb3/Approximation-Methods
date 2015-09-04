@@ -12,6 +12,8 @@
 
 #The default output approximates the solution of the following problem:
 
+![alt tag](https://github.com/sgtb3/Approximation-Methods/SimpsonSolver/Sample_Question.png)
+
 The output is 0.9544992253565711.
 
 The HW problem required the error is less than 10^5. Since the normal distribution is symetrical around x=0, the default values of a,b are 0,2. The resulting value is then multiplied by two. Default value for n is 14.
