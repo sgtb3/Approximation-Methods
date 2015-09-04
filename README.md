@@ -11,7 +11,8 @@
 #The default output is the solution to the following problem:
 
   ![alt tag](https://github.com/sgtb3/Approximation-Methods/blob/master/Runge-Kutta/Question_15_Ch_5.3_Numerical%20Methods_J_Faires.png)
-##Output:
+
+#Output:
 
     At t = 0.01, f(0.01) = 153.11
     At t = 0.02, f(0.02) = 388.35
@@ -33,7 +34,9 @@
     At t = 0.18, f(0.18) = 1986.03
     At t = 0.19, f(0.19) = 2007.24
     At t = 0.20, f(0.20) = 2026.98
-    Specifically that at t = 0.2 seconds after the reaction, approximately 2026 (2027 rounding up) units of KOH potassium hydroxide will have formed.
+    
+Specifically that at t = 0.2 seconds after the reaction, approximately 2026 (2027 rounding up)
+units of KOH potassium hydroxide will have formed.
 
 #Varying Answers
 
