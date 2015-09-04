@@ -1,6 +1,7 @@
 #Contents:
 
-    EulerSolver.java - This class file implements Euler's Method to solve the differential equation mv'= m-kv|v| with initial conditionals v(0)= 8 m/s, and mass m = 0.11 kg.
+    EulerSolver.java - This class file implements Euler's Method to solve the differential equation
+    mv'= m-kv|v| with initial conditionals v(0)= 8 m/s, and mass m = 0.11 kg.
 
 #The output answers part (a) of the question:
 	
@@ -21,4 +22,6 @@
 
 #Part(b):
 
-	The projectile reaches its maximum height and begins falling between time t=7 and t=8 when the approximate value of v'=(acceleration) changes from positive to negative. Therefore the nearest 10th of a second is (0.7).
+	The projectile reaches its maximum height and begins falling between time t=7 and t=8
+	when the approximate value of v'=(acceleration) changes from positive to negative. 
+	Therefore the nearest 10th of a second is (0.7).
