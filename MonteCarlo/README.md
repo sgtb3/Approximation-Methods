@@ -8,4 +8,4 @@
 
 #The default output answers the question:
 	
-![Sample Question](Approximation-Methods/MonteCarlo/Sample_Question.png)
+![Sample Question](https://github.com/sgtb3/Approximation-Methods/blob/master/MonteCarlo/Sample_Question.png?raw=true)
