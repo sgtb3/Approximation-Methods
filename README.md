@@ -11,11 +11,11 @@
 
 #The default output is the solution to the following problem:
 
-  ![alt tag](Approximation-Methods/Runge-Kutta/Question_15_Ch_5.3_Numerical Methods_J_Faires.png)
-
+  ![alt tag](https://github.com/sgtb3/Approximation-Methods/blob/master/Runge-Kutta/Question_15_Ch_5.3_Numerical%20Methods_J_Faires.png)
+  
   #Output:
   
-      At t = 0.01, f(0.01) = 153.11
+        At t = 0.01, f(0.01) = 153.11
     	At t = 0.02, f(0.02) = 388.35
     	At t = 0.03, f(0.03) = 710.52
     	At t = 0.04, f(0.04) = 1027.67
