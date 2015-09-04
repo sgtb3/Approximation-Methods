@@ -5,7 +5,7 @@ public class SimpsonIntegrator {
 
 	private double a;
 	private double b;
-	private double n;//number of evaluations
+	private double n; //number of evaluations
 
 	//checks if parameters are valid.
 	public boolean checkConditions() {
