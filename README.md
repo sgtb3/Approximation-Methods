@@ -11,7 +11,7 @@
 
 #The default output is the solution to the following problem:
 
-  ![alt tag](https://raw.github.com/sgtb3/Approximation-Methods/Runge-Kutta/Question_15_Ch_5.3_Numerical Methods_J_Faires.png)
+  ![alt tag](Approximation-Methods/Runge-Kutta/Question_15_Ch_5.3_Numerical Methods_J_Faires.png)
 
   #Output:
   
