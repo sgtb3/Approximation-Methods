@@ -4,15 +4,19 @@
 	
 		checkConditions() - checks to ensure the necessary conditions are met to apply Simpson’s rule
 
-		integrate() - takes the parameter values for the endpoints, the number of evaluations, and a user defined function class. It outputs a double value which is the approximate value of the function over over the interval [a,b] and accordance with the parameters provided.
+		integrate() - takes the parameter values for the endpoints, the number of evaluations, 
+		and a user defined function class. It outputs a double value which is the approximate 
+		value of the function over over the interval [a,b] and accordance with the parameters provided.
 
-	Function.java - A user-defined function class. By default the Normal Distribution Function with mu=0, sigma=1 is provided.
+	Function.java - A user-defined function class. By default the Normal Distribution Function with mu=0,
+	sigma=1 is provided.
 
-	SimpsonTester.java - The tester class. By default it is written to test the normal distribution sample problem 
+	SimpsonTester.java - The tester class. By default it is written to test the normal distribution 
+	sample problem 
 
 #The default output approximates the solution of the following problem:
 
-![alt tag](https://github.com/sgtb3/Approximation-Methods/SimpsonSolver/Sample_Question.png)
+![Sample Question](https://github.com/sgtb3/Approximation-Methods/blob/master/SimpsonSolver/Sample_Question.png?raw=true)
 
 The output is 0.9544992253565711.
 
