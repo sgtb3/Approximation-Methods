@@ -25,7 +25,7 @@ public class EulerSolver {
         System.out.println("At t = ("+t0+"), v("+t0+") = "+v_i);
 
         for (int i = 0; i < n; i++) {
-            v_i = v_i + h*f(v_i);
+            v_i = v_i + (h * f(v_i));
             t = t + h;
             System.out.println("At t = ("+(i+1)+"), v("+(i+1)+") = "+v_i);
         }

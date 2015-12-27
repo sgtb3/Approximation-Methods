@@ -11,8 +11,8 @@ public class Function {
         double n2 = 2e3;
         double n3 = 3e3;
 
-        return (k) * Math.pow(n1-(x_t/2), 2) 
-        	   * Math.pow(n2-(x_t/2), 2) 
-                   * Math.pow(n3-(3 * (x_t/4)), 3);
+        return (k) * Math.pow(n1 - (x_t/2), 2) 
+                   * Math.pow(n2 - (x_t/2), 2) 
+                   * Math.pow(n3 - (3 * (x_t/4)), 3);
     }
 }

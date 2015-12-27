@@ -12,7 +12,7 @@ public class MonteCarlo {
     private Random rand;
     private Function func;
 
-    public MonteCarlo(){
+    public MonteCarlo() {
         func = new Function();
         rand = new Random();
     }
@@ -79,7 +79,7 @@ public class MonteCarlo {
      */
     public double estimator(double xl, double xu, double yl,
                             double yu, double zl, double zu,
-                            double itr){
+                            double itr) {
 
         //if any of the bounds are backwards swap them
         if (xu < xl) {

@@ -58,7 +58,9 @@ public class Bisection {
     //true if they are of opposite signs, and false if
     //they are of the same sign
     public static boolean checkSign(double f1, double f2) {
+        
         boolean sign = false;
+        
         if (f1 > 0 && f2 < 0){
             sign = true;
         } else if (f1 < 0 && f2 > 0){
