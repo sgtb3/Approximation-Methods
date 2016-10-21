@@ -8,7 +8,12 @@ public class EulerSolver {
 
     private double m;
 
-    //function
+    /**
+     * Defines the function.
+     * 
+     * @param
+     * @return
+     */
     public double f(double v_i) {
         double g = -9.8;
         double k = 0.002;
@@ -16,7 +21,8 @@ public class EulerSolver {
     }
 
     //approximate using Euler's Method
-    public void solve(double mass, int t0, double v_t0, double a, double b, double n){
+    public void solve(double mass, int t0, double v_t0, double a, 
+                      double b, double n) {
 
         this.m = mass;
         int t = t0;
