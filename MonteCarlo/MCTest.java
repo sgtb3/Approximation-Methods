@@ -10,10 +10,10 @@ public class MCTest {
 
         MonteCarlo MC = new MonteCarlo();
 
-        //number of evaluations
+        /* number of evaluations */
         double n = 1000000;
 
-        //bounds for upper and lower limits of integration
+        /* bounds for upper and lower limits of integration */
         double xl = 0;
         double xu = 0.5;
         double yl = 1;
@@ -27,7 +27,7 @@ public class MCTest {
         MC.estimator(xl, xu, yl, yu, zl, zu, 100000);
         MC.estimator(xl, xu, yl, yu, zl, zu, 1000000);
 
-        //---- For testing purposes only----//
+        /*---- For testing purposes only----*/
         //MC.estimator(xl,xu,n);
         //MC.estimator(xl,xu,yl,yu,n);
     }

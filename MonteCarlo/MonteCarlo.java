@@ -23,10 +23,9 @@ public class MonteCarlo {
      */
     public double estimator(double lower, double upper, double itr) {
 
-        //if bounds are backwards swap them
-        if (upper < lower) {
+        /* if bounds are backwards swap them */
+        if (upper < lower)
             return estimator(upper, lower, itr);
-        }
 
         double sum = 0;
         double randX;
@@ -36,7 +35,7 @@ public class MonteCarlo {
             sum += func.f(lower + ((upper-lower) * randX));
         }
 
-        //divide sum by n iterations
+        /* divide sum by n iterations */
         sum *= (upper - lower) / itr;
         System.out.printf("Approximate value of the single var function f ");
         System.out.println("with n = " + itr + " is: " + sum);
@@ -50,13 +49,12 @@ public class MonteCarlo {
     public double estimator(double xl, double xu, double yl,
                             double yu, double itr) {
 
-        //if any of the bounds are backwards swap them
-        if (xu < xl) {
+        /* if any of the bounds are backwards swap them */
+        if (xu < xl)
             return estimator(xu, xl, yl, yu, itr);
-        }
-        if (yu < yl) {
+
+        if (yu < yl)
             return estimator(xl, xu, yu, yl, itr);
-        }
 
         final int numVars = 2;
         double[] rInput = new double[numVars];
@@ -67,9 +65,10 @@ public class MonteCarlo {
             rInput[1] = yl + (yu-yl) * rand.nextDouble();
             sum += func.f(rInput[0], rInput[1]);
         }
+
         sum = sum * (xu-xl) * (yu-yl) / itr;
-        System.out.printf("Approximate value of the double var function f ");
-        System.out.println("with n = " + itr + " is: " + sum);
+        System.out.println("Approximate value of the double var function f " +
+                           "with n = " + itr + " is: " + sum);
         return sum;
     }
 
@@ -81,31 +80,33 @@ public class MonteCarlo {
                             double yu, double zl, double zu,
                             double itr) {
 
-        //if any of the bounds are backwards swap them
-        if (xu < xl) {
+        /* if any of the bounds are backwards swap them*/
+        if (xu < xl)
             return estimator(xu, xl, yl, yu, zl, zu, itr);
-        }
-        if (yu < yl) {
+
+        if (yu < yl)
             return estimator(xl, xu, yu, yl, zl, zu, itr);
-        }
-        if (zu < zl) {
+
+        if (zu < zl)
             return estimator(zl, zu, yl, yu, zl, zu, itr);
-        }
+
 
         final int numVars = 3;
         double sum = 0;
         double[] rInput = new double[numVars];
 
         for (int i = 0; i < itr; i++) {
+
             rInput[0] = xl + (xu-xl) * rand.nextDouble();
             rInput[1] = yl + (yu-yl) * rand.nextDouble();
             rInput[2] = zl + (zu-zl) * rand.nextDouble();
 
             sum += func.f(rInput);
         }
+
         sum = sum * (xu-xl) * (yu-yl) * (zu-zl) / itr;
-        System.out.printf("Approximate value of the tripple var function f ");
-        System.out.println("with n = " + itr + " is: " + sum);
+        System.out.println("Approximate value of the tripple var function f " +
+                          "with n = " + itr + " is: " + sum);
         return sum;
     }
 }
