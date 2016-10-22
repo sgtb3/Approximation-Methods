@@ -1,20 +1,18 @@
 /**
  * This class implements the Second Order Runge-Kutta Method.
- * The user must define a function in the Function.java class
- * bnb2115@columbia.edu
+ * The user must define a function in the Function.java class.
  */
-
 public class RungeKutta {
 
     /**
      * This method approximates the function at various values of time t
      * using Runge-Kutta Order 2.
      *
-     * @param f user defined function
-     * @param t0 initial condition time value
-     * @param y_t0 initial condition function value at time t = 0
-     * @param tf final value for t (terminating condition)
-     * @param h step size
+     * @param f    : user defined function
+     * @param t0   : initial condition time value
+     * @param y_t0 : initial condition function value at time t = 0
+     * @param tf   : final value for t (terminating condition)
+     * @param h    : step size
      */
     public void solve(Function f, int t0, double y_t0, double tf, double h) {
 
@@ -34,9 +32,10 @@ public class RungeKutta {
         } while(t < tf);
     }
 
+    /* Tester */
     public static void main(String[] args) {
 
-        //Set appropriate values
+        /* set appropriate values */
         double tf = 0.2;
         int t0 = 0;
         double y_t0 = 0;

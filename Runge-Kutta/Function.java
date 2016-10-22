@@ -1,11 +1,11 @@
 /**
  * A user defined function class.
- * bnb2115@columbia.edu
  */
 public class Function {
 
-    //A first-order nonlinear ODE
+    /* A first-order nonlinear ODE */
     public double dx(double t, double x_t) {
+
         double k = 6.22e-19;
         double n1 = 2e3;
         double n2 = 2e3;
